@@ -1,0 +1,144 @@
+@import './styles/variables/variables.scss';
+@import './styles/login.scss';
+@import './styles/recovery.scss';
+@import './styles/registration.scss';
+@import './styles/confirm.scss';
+@import './styles/header.scss';
+@import './styles/didnotcome.scss';
+@import './styles/success.scss';
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("./styles/fonts/OpenSans-400.woff2"); 
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("./styles/fonts/OpenSans-600.woff2"); 
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("./styles/fonts/OpenSans-700.woff2"); 
+  font-weight: 700;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0;
+  background: white;
+  font-family: 'Open Sans',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 24px 54px;
+  @media (max-width: 600px) {
+    padding: 10px 16px;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%form-shared {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 496px;
+  @media (max-width: 600px) {
+    width: 343px;
+  }
+}
+
+%buttons-shared {
+  margin: 16px 0 12px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  @media (max-width: 600px) {
+    margin: 24px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: $buttons-border;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 240px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    @media (max-width: 600px) {
+      justify-content: center;
+      width: 100%;
+      margin: 0 0 9px 0;
+    }
+  }
+  button:hover{
+    background: #F6F8FF;
+  }
+}
+
+%input-shared {
+  height: 56px;
+  border: $buttons-border;
+  border-radius: 12px;
+  margin: 8px 0;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  width: 100%;
+}
+
+%input-placeholder-shared {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #E6E6E6;
+}
+
+%submit-button-shared {
+  background: #4E74F5;
+  border-radius: 64px;
+  height: 64px;
+  width: 100%;
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 13px;
+  color: #FFFFFF;
+  @media (max-width: 600px) {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+

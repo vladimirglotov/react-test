@@ -1,0 +1,33 @@
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 354px;
+  @media (max-width: 600px) {
+    width: 342px;
+  }
+  &__message {
+    width: 100px;
+    height: 100px;
+    margin: 75px 0 48px 0;
+  }
+  &__header {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+    margin: 0 0 8px 0;
+  }
+  &__info {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    margin-bottom: 40px;
+  }
+  &__submit {
+    @extend %submit-button-shared;
+  }
+}
