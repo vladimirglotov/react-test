@@ -28,8 +28,8 @@ export const Registration = () => {
       <h1 className="registration__header">Регистрация</h1>
       <span className="registration__info">Зарегистрируйся и получи доступ к аналитике аккаунтов.</span>
       <div className="registration__buttons">
-        <button><img alt="button_pic" src="./Facebook.png"></img>Войти через Facebook</button>
-        <button><img alt="button_pic" src="./Google.png"></img>Войти через Google</button>
+        <button><img alt="button_pic" src="/react-test/Facebook.png"></img>Войти через Facebook</button>
+        <button><img alt="button_pic" src="/react-test/Google.png"></img>Войти через Google</button>
       </div>
       <div className="registration__or">или</div>
       <input ref={name} type="text" placeholder="Имя"></input>

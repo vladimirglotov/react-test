@@ -29,12 +29,12 @@ export const Recovery = () => {
   if (isDesktop) {
     return (
       <div className="recovery">
-        <img className="recovery__lock" alt="lock_pic" src="./Lock.png"></img>
+        <img className="recovery__lock" alt="lock_pic" src="/react-test/Lock.png"></img>
         <h2 className="recovery__header">Восстановить пароль</h2>
         <span className="recovery__info">Введите email, на который регистрировались ранее</span>
         <input ref={email} onChange={onChangeHandler} className="recovery__input" type="text"></input>
         {loader ?
-          <button ref={button} onClick={submitHandler} className="recovery__submit"><img className="rot" alt="loader_pic" src="./loader.png"></img>Отправка</button>
+          <button ref={button} onClick={submitHandler} className="recovery__submit"><img className="rot" alt="loader_pic" src="/react-test/loader.png"></img>Отправка</button>
           :
           <button ref={button} onClick={submitHandler} className="recovery__submit">Отправить</button>
         }

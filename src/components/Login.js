@@ -27,8 +27,8 @@ export const Login = () => {
       <h1 className="login__header">Войти</h1>
       <span className="login__greeting">Добро пожаловать, рады видеть вас снова &#128075;</span>
       <div className="login__buttons">
-        <button><img className="login__button-img" alt="button_pic" src="./Facebook.png"></img>Войти через Facebook</button>
-        <button><img className="login__button-img" alt="button_pic" src="./Google.png"></img>Войти через Google</button>
+        <button><img className="login__button-img" alt="button_pic" src="/react-test/Facebook.png"></img>Войти через Facebook</button>
+        <button><img className="login__button-img" alt="button_pic" src="/react-test/Google.png"></img>Войти через Google</button>
       </div>
       <span className="login__or">или</span>
       <input type="text" placeholder="Email" onChange={() => removeError(email.current, password.current)} ref={email}></input>
