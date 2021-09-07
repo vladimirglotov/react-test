@@ -20,7 +20,9 @@
     "build": "react-dotenv && react-scripts build",
     "serve": "react-dotenv && serve build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +47,8 @@
       "API_URL"
     ]
   },
-  "homepage": "."
+  "homepage": "http://vladimirglotov.github.io/react-test",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
