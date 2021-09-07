@@ -47,7 +47,7 @@
       "API_URL"
     ]
   },
-  "homepage": "http://vladimirglotov.github.io/react-test",
+  "homepage": "https://vladimirglotov.github.io/react-test",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
