@@ -142,3 +142,13 @@ button {
   }
 }
 
+.error {
+  font-size: 12px;
+  line-height: 16px;
+  color: #FB2424;
+  margin-bottom: 12px;
+}
+.input-error {
+  border: 1px solid red;
+}
+

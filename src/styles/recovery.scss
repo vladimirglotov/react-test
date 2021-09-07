@@ -46,6 +46,7 @@
   }
   &__submit {
     @extend %submit-button-shared;
+    position: relative;
   }
   img.rot {
     position: absolute;
@@ -83,14 +84,5 @@
     font-size: 14px;
     line-height: 24px;
     color: #999999;
-  }
-  .error {
-    font-size: 12px;
-    line-height: 16px;
-    color: #FB2424;
-    margin-bottom: 12px;
-  }
-  .input-error {
-    border: 1px solid red;
   }
 }

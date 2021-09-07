@@ -44,5 +44,6 @@
     "whitelist": [
       "API_URL"
     ]
-  }
+  },
+  "homepage": "."
 }
