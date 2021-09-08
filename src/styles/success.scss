@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 354px;
+  max-width: 354px;
+  width: 100%;
   @media (max-width: 600px) {
-    width: 342px;
+    max-width: 342px;
   }
   &__message {
     width: 100px;
@@ -29,5 +30,9 @@
   }
   &__submit {
     @extend %submit-button-shared;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
   }
 }

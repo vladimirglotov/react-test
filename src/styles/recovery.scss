@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 420px;
+  max-width: 420px;
+  width: 100%;
   @media (max-width: 600px) {
-    width: 343px;
+    max-width: 343px;
   }
   &__header {
     font-weight: 600;

@@ -20,7 +20,7 @@
     line-height: 24px;
     color: #999999;
     @media (max-width: 600px) {
-      width: 237px;
+      max-width: 237px;
       font-size: 14px;
       margin: 0 0;
     }
@@ -49,7 +49,7 @@
   }
   &__has-promo {
     margin: 24px auto;
-    width: 180px;
+    max-width: 180px;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
@@ -78,8 +78,9 @@
     font-size: 14px;
     line-height: 24px;
     color: #000000;
+    margin-bottom: 150px;
     @media (max-width: 600px) {
-      width: 250px;
+      max-width: 250px;
     }
   }
 }
