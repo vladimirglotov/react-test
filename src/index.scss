@@ -35,6 +35,14 @@ button {
   box-sizing: border-box;
 }
 
+input:not([type=checkbox]):not([type=radio]),
+textarea, 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 body {
   max-width: 1440px;
   margin: 0;
