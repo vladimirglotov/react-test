@@ -17,7 +17,7 @@ export const HeaderButton = () => {
   if (path === '/registration') {
     return (
       <div className="header__buttons">
-        <span>У вас есть аккаунт?</span>
+        <span>Уже есть аккаунт?</span>
         <Link to="/" className="header__button">Войти</Link>
       </div>
     )
@@ -25,7 +25,7 @@ export const HeaderButton = () => {
   if (path === '/confirm' || path === '/didnotcome') {
     return (
       <div className="header__buttons">
-        <span>Выйти</span>
+        <Link className="header__link" to="/">Выйти</Link>
       </div>
     )
   }

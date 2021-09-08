@@ -46,5 +46,17 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;
     cursor: pointer;
+    @media (max-width: 600px) {
+      width: 113px;
+      height: 40px;
+      font-size: 12px;
+      line-height: 13px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
   }
 }

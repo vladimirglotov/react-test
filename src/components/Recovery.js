@@ -48,7 +48,7 @@ export const Recovery = () => {
       <img className="recovery__lock" alt="lock_pic" src="./Lock.png"></img>
       <h2 className="recovery__header">Восстановить пароль</h2>
       <span className="recovery__info">Введите email, на который регистрировались ранее</span>
-      <input ref={email} onChange={onChangeHandler} className="recovery__input" type="text"></input>
+      <input ref={email} placeholder="Email" onChange={onChangeHandler} className="recovery__input" type="text"></input>
         <button ref={button} onClick={submitHandler} className="recovery__submit">Восстановить пароль</button>
       <Link className="recovery__cancel" to="/">Отменить</Link>
     </div>

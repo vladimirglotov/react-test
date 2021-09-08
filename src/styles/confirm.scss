@@ -13,9 +13,10 @@
     color: #000000;
     margin: 139px 0 16px 0;
     @media (max-width: 600px) {
+      width: 272px;
       font-size: 32px;
       line-height: 44px;
-      margin: 121px 0 0 0;
+      margin: 100px 0 8px 0;
     }
   }
   &__info {
@@ -40,7 +41,10 @@
     font-size: 16px;
     line-height: 13px;
     color: #FFFFFF;
-
+    @media (max-width: 600px) {
+      width: 343px;
+      height: 56px;
+    }
   }
   &__not-come {
     text-decoration: none;
