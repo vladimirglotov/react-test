@@ -16,7 +16,7 @@ export const Login = () => {
     if (!email.current.value || !password.current.value) {
       createError('Введите email, Введите пароль', email.current, password.current, button.current)
     } else if (email.current.value.trim() === process.env.REACT_APP_EMAIL && password.current.value.trim() === process.env.REACT_APP_PASSWORD) {
-      history.push('/success')
+      history.push('/content')
     } else {
       createError('Неверный email или пароль', email.current, password.current, button.current)
     }

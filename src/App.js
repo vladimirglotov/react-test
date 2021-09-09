@@ -7,6 +7,7 @@ import { Success } from './components/Success';
 import { Recovery } from './components/Recovery';
 import { Confirm } from './components/Confirm'; 
 import { DidNotCome } from './components/DidNotCome';
+import { LoginSuccess } from "./components/LoginSuccess";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
               <Route component={Recovery} path="/recovery" />
               <Route component={DidNotCome} path="/didnotcome" />
               <Route component={Success} path="/success" />
+              <Route component={LoginSuccess} path="/content" />
               <Redirect to="/" />
           </Switch>
       </BrowserRouter>
