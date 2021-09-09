@@ -10,7 +10,7 @@
     font-weight: 600;
     font-size: 56px;
     line-height: 76px;
-    color: #000000;
+    color: $black-text;
     margin: 139px 0 16px 0;
     @media (max-width: 600px) {
       width: 272px;
@@ -22,7 +22,7 @@
   &__info {
     font-size: 16px;
     line-height: 30px;
-    color: #999999;
+    color: $grey-text;
     max-width: 562px;
     margin-bottom: 20px;
     @media (max-width: 600px) {
@@ -32,7 +32,7 @@
     }
   }
   &__submit {
-    background: #4E74F5;
+    background: $blue-text;
     border-radius: 64px;
     height: 64px;
     width: 354px;
@@ -51,7 +51,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #4E74F5;
+    color: $blue-text;
     margin-top: 4px;
   }
 }
